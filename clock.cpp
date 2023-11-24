@@ -43,7 +43,7 @@ int main()
 
         // Convert the current time to a tm structure
         std::tm timeInfo;
-        localtime_r(&currentTime, &timeInfo);
+        localtime_r(&currentTime, &timeInfo); // For Windows: change to localtime_s(&timeInfo, &currentTime);
 
         // Define the format of the time string
         const char *format = "%H:%M:%S"; // Hours:Minutes:Seconds

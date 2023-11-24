@@ -1,10 +1,10 @@
 # Clock
 
-Just a digital clock.
+Just a digital clock in under a hundred lines of C++ code.
 
 Requires [SFML](https://www.sfml-dev.org/) library.
 
-## Linux:
+## Linux (WSL):
 
 <p align="center">
 <img src="screenshot.png"/>
